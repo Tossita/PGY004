@@ -1,0 +1,60 @@
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.body {
+ 
+   
+    min-height: 100vh;
+}
+
+.barra-lateral {
+    
+    min-height: 100% !important;
+}
+
+
+
+body{
+    background-image: url(../img/verde.jpg) !important;
+}
+
+@media (min-width:992px) {
+
+    .nav-activar {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
+
+.fondo-transparente{
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.fondo-transparente-nav {
+    background-color: rgba(34, 36, 37, 0.5) !important;
+}
+.navbar-light .navbar-toggler {
+    background-color: #eff2f500;
+    border-color: rgba(246, 237, 237, 0.85);
+  }
+
+.navbar-light .navbar-toggler-icon {
+background-image: url(../img/button.png);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.632);
+    border-radius: 7px !important;
+}
+
+.a-color {
+    color: white;
+}
