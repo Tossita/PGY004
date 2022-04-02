@@ -12,37 +12,43 @@
     <link rel="stylesheet" href="css/style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 </head>
 <body class="body">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fondo-transparente-nav ">
         <a class="navbar-brand" href="#">
             <img src="img/logosf.png" alt="" width="100px">
         </a>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link a-color" href="#"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link a-color" href="#"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-        </ul>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse fondo-transparente nav-activar" id="navbarNav" >
-          <ul class="navbar-nav nav-activar" >
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav nav-activar" >
+                <li class="nav-item activo">
+                    <a class="nav-link" href="indexdos.html"><i class="fa-solid fa-house fa-flip-hover" ></i> Inicio </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Venta.html"><i class="fa-solid fa-dollar-sign fa-flip-hover"></i> Ventas </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="Seguimiento.html"><i class="fa-solid fa-location-crosshairs fa-flip-hover"></i> Seguimiento </a>
+                </li>
+            </ul>
         </div>
+        <ul class="nav" style="margin-right: 3%;">
+            <li class="nav-item dropdown dropleft">
+                <a class="nav-link dropdown-toggle a-color" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Usuario <img src="img/cactus.jpeg" width="40" height="40" class="rounded-circle">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                  <a class="dropdown-item" href="#">Dashboard</a>
+                  <a class="dropdown-item" href="#">Edit Profile</a>
+                  <a class="dropdown-item" href="#">Log Out</a>
+                </div>
+            </li>
+        </ul>       
+          
+        
       </nav>
             
     <div class="container-fluid">
@@ -50,146 +56,63 @@
             <div class="col-sm-1 fondo-transparente barra-lateral ">
                 <h1>1</h1>
             </div>
-            <div class="col-sm-10 azul">
-                <section class="pt-5 pb-5">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <h3 class="mb-3">Carousel cards title </h3>
-                            </div>
-                            <div class="col-6 text-right">
-                                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                                    <i class="fa-solid fa-angle-left"></i>
-                                </a>
-                                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </a>
-                            </div>
-                            <div class="col-12">
-                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <div class="col-sm-10 azul" style="margin-bottom: 5%;">
                 
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="row">
-                
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                
-                                                        </div>
-                
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                
-                                                        </div>
-                                                    </div>
-                                                </div>
-                
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                
-                                                        </div>
-                
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                
-                                                        </div>
-                                                    </div>
-                                                </div>
-                
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <div class="row">
-                
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                
-                                                        </div>
-                
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 mb-3">
-                                                    <div class="card">
-                                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
-                                                        <div class="card-body">
-                                                            <h4 class="card-title">Special title treatment</h4>
-                                                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+                <div class="container" style="margin-bottom: 4%; margin-top: 2%;">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/Plantassyflores.gif" alt="First slide" width="500px">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="img/Plantasyflores.gif" alt="Second slide" width="500px">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="img/Plantasyflores.png" alt="Third slide" width="700px">
+                          </div>
                         </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <i class="fa-solid fa-chevron-left fa-3x" style = "color:black;"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <i class="fa-solid fa-chevron-right fa-3x" style = "color:black;"></i>
+                        </a>
                     </div>
-                  </section>
+                    
+                </div>
+                <hr>
+                <div class="">
+
+                </div>
 
                   
             </div>
             <div class="col-0 col-sm-1 fondo-transparente barra-lateral">
-                <h1>3</h1>
+                
             </div>
+        </div>
+    </div>
+    <div class="p-5 text-white" style="background-color: black;">
+        <div class="d-flex justify-content-between align-items-center">
+            <img src="img/logo_municipal.png" alt="" width="200">
+            <ul class="list-group list-group-flush" >
+                <li class="list-group-item" style="background-color: rgba(240, 248, 255, 0) !important;">
+                    <a class="nav-link a-color" href="#"><i class="fa-brands fa-instagram"></i> Flowey</a>
+                </li>
+                <li class="list-group-item" style="background-color: rgba(240, 248, 255, 0) !important;">
+                    <a class="nav-link a-color" href="#"><i class="fa-brands fa-facebook"></i>Flowey</a>
+                </li>
+                
+                
+            </ul>
+
+            
         </div>
     </div>
 </body>

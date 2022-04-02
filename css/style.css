@@ -3,7 +3,7 @@
 }
 
 .azul {
-    background-color: blue;
+    background-color: rgb(255, 240, 201);
 }
 
 .body {
@@ -20,7 +20,7 @@
 
 
 body{
-    background-image: url(../img/verde.jpg) !important;
+    background-image: url(../img/top-view-beautiful-arrangement-of-green-foliage.jpg) !important;
 }
 
 @media (min-width:992px) {
@@ -53,8 +53,27 @@ background-image: url(../img/button.png);
     color: white;
     background-color: rgba(128, 128, 128, 0.632);
     border-radius: 7px !important;
+    
 }
 
 .a-color {
     color: white;
+}
+
+
+
+.nav-item:hover .fa-flip-hover{
+    -webkit-animation: fa-flip 2s infinite linear;
+    -moz-animation: fa-flip 2s infinite linear;
+    -o-animation: fa-flip 2s infinite linear;
+    animation: fa-flip 2s infinite linear;
+    cursor: context-menu;
+  }
+
+
+
+
+  .activo {
+    background-color: rgba(128, 128, 128, 0.447);
+    border-radius: 7px !important;
 }
