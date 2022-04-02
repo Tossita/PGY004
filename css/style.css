@@ -20,7 +20,7 @@
 
 
 body{
-    background-image: url(../img/top-view-beautiful-arrangement-of-green-foliage.jpg) !important;
+    background-image: url(../img/crema.jpg) !important;
 }
 
 @media (min-width:992px) {
@@ -36,11 +36,11 @@ body{
     background-color: rgba(255, 255, 255, 0) !important;
 }
 .fondo-transparente-nav {
-    background-color: rgba(34, 36, 37, 0.5) !important;
+    background-color: rgba(6, 6, 6, 0.591) !important;
 }
 .navbar-light .navbar-toggler {
     background-color: #eff2f500;
-    border-color: rgba(246, 237, 237, 0.85);
+    border-color: rgba(237, 246, 244, 0.85);
   }
 
 .navbar-light .navbar-toggler-icon {
@@ -57,14 +57,17 @@ background-image: url(../img/button.png);
 }
 
 .a-color {
-    color: white;
+    color: rgb(12, 2, 2);
 }
 
 
 
 .nav-item:hover .fa-flip-hover{
-    -webkit-animation: fa-flip 2s infinite linear;
-    -moz-animation: fa-flip 2s infinite linear;
+    color: white;
+    background-color: rgba(69, 66, 66, 0.632);
+    -webkit-box-shadow: 6px 2px 28px -2px rgba(120,115,120,1);
+    -moz-box-shadow: 6px 2px 28px -2px rgba(120,115,120,1);
+    box-shadow: 6px 2px 28px -2px rgba(120,115,120,1);
     -o-animation: fa-flip 2s infinite linear;
     animation: fa-flip 2s infinite linear;
     cursor: context-menu;
@@ -77,3 +80,6 @@ background-image: url(../img/button.png);
     background-color: rgba(128, 128, 128, 0.447);
     border-radius: 7px !important;
 }
+ .card-precio {
+    color:crimson
+ }
