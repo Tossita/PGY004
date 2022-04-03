@@ -24,20 +24,20 @@
         </button>
         <div class="collapse navbar-collapse fondo-transparente nav-activar" id="navbarNav" >
             <ul class="navbar-nav nav-activar" >
-                <li class="nav-item activo">
-                    <a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-flip-hover" ></i> Inicio </a>
+                <li class="nav-item mt-1 mr-1">
+                    <a class="nav-link " href="index.html"><i class="fa-solid fa-house fa-flip-hover" ></i> Inicio </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-dollar-sign fa-flip-hover"></i> Ventas </a>
+                <li class="nav-item mt-1 mr-1">
+                    <a class="nav-link" href="Venta.html"><i class="fa-solid fa-dollar-sign fa-flip-hover"></i> Ventas </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#"><i class="fa-solid fa-location-crosshairs fa-flip-hover"></i> Seguimiento </a>
+                <li class="nav-item mt-1 mr-1 activo">
+                    <a class="nav-link disabled" href="seguimiento.html"><i class="fa-solid fa-location-crosshairs fa-flip-hover"></i> Seguimiento </a>
                 </li>
             </ul>
         </div>
         <ul class="nav" style="margin-right: 3%;">
             <li class="nav-item dropdown dropleft">
-                <a class="nav-link dropdown-toggle a-color" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle a-color-navbar" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Usuario <img src="img/cactus.jpeg" width="40" height="40" class="rounded-circle">
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
@@ -56,19 +56,20 @@
             <div class="col-sm-1 fondo-transparente barra-lateral ">
                 <h1>1</h1>
             </div>
-            <div class="col-sm-10 azul" style="margin-bottom: 5%;">
+            <div class="col-sm-10 azul margen-contenedor" style="margin-bottom: 5%;">
                 
 
-                <div style="text-align: center;">
+                <div class="container" style="text-align: center;">
                     <img src="img/2190995_circle_green_lock_privacy_safe_icon.png" alt="" width="80">
                     <form action="suscriptor.html" method="GET">
                         <div class="form-group">
                             <label for="txtUser"> Numero de Pedido:</label>
                             <input type="text" placeholder="Ej: 000001" class="form-control" id="txtUser" name="txtUser">
                         </div>
-    
-                        <input type="submit" id="btnEnviar" name="btnEnviar" class="btn btn-success">
-                        <input type="reset" id="btnLimpiar" name="btnLimpiar" class="btn btn-danger">
+                        <div class="container mb-5">
+                            <input type="submit" id="btnEnviar" name="btnEnviar" class="btn btn-success">
+                            <input type="reset" id="btnLimpiar" name="btnLimpiar" class="btn btn-danger">
+                        </div>
                     </form>
                 </div>
                     
