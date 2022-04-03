@@ -101,3 +101,32 @@ background-image: url(../img/button.png);
     -moz-box-shadow: 14px 10px 16px -8px rgba(54,51,54,1);
     box-shadow: 14px 10px 16px -8px rgba(54,51,54,1);
 }
+
+#quienessomos .container{
+    background-image: url(../img/crema.jpg);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#quienessomos .texto{
+    color: aliceblue;
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quienessomos h2{
+    color:aliceblue;
+    margin-top: 0px;
+}
+
+#quienessomos .img-container{
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 600px; 
+}
