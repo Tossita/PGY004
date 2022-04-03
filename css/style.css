@@ -3,7 +3,7 @@
 }
 
 .azul {
-    background-color: rgb(255, 240, 201);
+    background-color: rgb(218, 198, 150);
 }
 
 .body {
@@ -80,6 +80,6 @@ background-image: url(../img/button.png);
     background-color: rgba(128, 128, 128, 0.447);
     border-radius: 7px !important;
 }
- .card-precio {
+ .card-text {
     color:crimson
  }
