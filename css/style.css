@@ -63,8 +63,6 @@ background-image: url(../img/button.png);
     color: rgb(12, 2, 2);
 }
 
-
-
 .nav-item:hover .fa-flip-hover{
     color: white;
     background-color: rgba(69, 66, 66, 0);
@@ -75,8 +73,6 @@ background-image: url(../img/button.png);
     animation: fa-flip 2s infinite linear;
     cursor: context-menu;
   }
-
-
 
 
   .activo {
@@ -103,13 +99,14 @@ background-image: url(../img/button.png);
 }
 
 #quienessomos .container{
-    background-image: url(../img/crema.jpg);
+    margin-top: 3%;
+    background-color: rgb(218, 198, 150);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #quienessomos .texto{
-    color: aliceblue;
+    color: rgb(1, 4, 7);
     width: 50%;
     max-width: 600px;
     text-align: initial;
@@ -120,12 +117,13 @@ background-image: url(../img/button.png);
 }
 
 #quienessomos h2{
-    color:aliceblue;
+    text-align: center;
+    color:rgb(1, 4, 7);
     margin-top: 0px;
 }
 
 #quienessomos .img-container{
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 500px;
     width: 600px; 
