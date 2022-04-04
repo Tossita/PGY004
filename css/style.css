@@ -102,7 +102,8 @@ background-image: url(../img/button.png);
     margin-top: 3%;
     background-color: rgb(218, 198, 150);
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+   
 }
 
 #quienessomos .texto{
@@ -112,7 +113,7 @@ background-image: url(../img/button.png);
     text-align: initial;
     padding-left: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
 }
 
@@ -125,6 +126,24 @@ background-image: url(../img/button.png);
 #quienessomos .img-container{
     background-size: contain;
     background-position: center;
-    height: 500px;
-    width: 600px; 
+    width: 100%; 
+}
+
+
+.card:hover{
+    -webkit-box-shadow: 6px 9px 5px 0px rgba(94,91,94,1);
+    -moz-box-shadow: 6px 9px 5px 0px rgba(94,91,94,1);
+    box-shadow: 6px 9px 5px 0px rgba(94,91,94,1);
+}
+
+h4, h2, a{
+    font-family: 'Chewy', cursive;
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#barritas {
+    background-color: rgba(20, 20, 20, 0.479) !important;
 }
