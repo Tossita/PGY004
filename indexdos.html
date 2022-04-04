@@ -28,116 +28,38 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse fondo-transparente nav-activar" id="navbarNav" > 
-            <div class="container">
-                <ul class="navbar-nav nav-activar" >
-                    <li class="nav-item mt-1 mr-1 activo ">
-                        <a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-flip-hover" ></i> Inicio </a>
-                    </li>
-                    <li class="nav-item mt-1 mr-1">
-                        <a class="nav-link" href="#firstModal" data-toggle="modal" data-target="#firstModal" ><i class="fa-solid fa-dollar-sign fa-flip-hover"></i> Ventas </a>
-                    </li>
-                    <li class="nav-item mt-1 mr-1">
-                        <a class="nav-link" href="#firstModal" data-toggle="modal" data-target="#firstModal"><i class="fa-solid fa-location-crosshairs fa-flip-hover"></i> Seguimiento </a>
-                    </li>
-                    <li class="nav-item mt-1 mr-1">
-                        <a class="nav-link"  href="#" style="color: white;" data-toggle="modal" data-target="#secondModal"><i class="fa-solid fa-right-to-bracket fa-flip-hover"></i> Iniciar sesión</a>
-                    </li>
-                </ul>
-                <div>
-                    
-                </div>
-            </div>
+        <div class="collapse navbar-collapse fondo-transparente nav-activar" id="navbarNav" >
+            <ul class="navbar-nav nav-activar" >
+                <li class="nav-item mt-1 mr-1 activo ">
+                    <a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-flip-hover" ></i> Inicio </a>
+                </li>
+                <li class="nav-item mt-1 mr-1">
+                    <a class="nav-link" href="Venta.html"><i class="fa-solid fa-dollar-sign fa-flip-hover"></i> Ventas </a>
+                </li>
+                <li class="nav-item mt-1 mr-1">
+                    <a class="nav-link " href="Seguimiento.html"><i class="fa-solid fa-location-crosshairs fa-flip-hover"></i> Seguimiento </a>
+                </li>
+            </ul>
         </div>
-
-                <!-- PRIMER MODAL -->
-                <div class="modal fade" id="firstModal">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                        <h4 class="modal-title">Lo sentimos</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                        Para acceder a esta sección debes encontrarte registrado.
-                        </div>
-                
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                
-                    </div>
-                    </div>
+        <ul class="nav" style="margin-right: 3%;">
+            <li class="nav-item dropdown dropleft">
+                <a class="nav-link dropdown-toggle a-color-navbar" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Usuario <img src="img/cactus.jpeg" width="40" height="40" class="rounded-circle">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                  <a class="dropdown-item" href="historial.html">Historial</a>
+                  <a class="dropdown-item" href="carritoCompras.html">Carrito de compras</a>
+                  <a class="dropdown-item" href="index.html">Salir</a>
+                  
                 </div>
-
-
-                
-
-                <!-- The Modal -->
-                <div class="modal fade" id="secondModal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-      
-                    <!-- Modal Header -->
-                            <div class="modal-header">
-                                <h4 class="modal-title"> Iniciar sesión</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-      
-                    <!-- SEGUNDO MODAL -->
-                            <div class="modal-body">
-                                <div style="text-align: center;">
-                                    <form action="usuario.html" method="get">
-                                        <img src="img/1311611_circle_style_unlock_lock_security_icon.png" alt="" width="80">
-                                        <div class="form-group">
-                                            <label for="txtUser">Usuario: </label>
-                                                <input type="text" placeholder="Ej: fr.julliet" class="form-control" name="txtUser" id="txtUser">
-                                        </div>
-    
-                                        
-                                        <div class="form-group">
-                                            <label for="txtPass">Contraseña: </label>
-                                            <input type="password" placeholder="Ej: 123456" class="form-control" name="txtPass" id="txtPass">
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                            <a class="a-color" href="registrarse.html">¿Todavía no tienes una cuenta?</a>
-                                        </div>
-    
-    
-                                        <a type="submit" class="btn btn-success" name="btnEnviar" id="btnEnviar" href="indexdos.html" style="font-family: inherit !important;">Enviar</a>
-                                        <input type="reset" class="btn btn-danger" name="btnReset" id="btnReset">
-    
-                                    </form>
-                                </div>
-                            </div>
-      
-                            <!-- Modal footer -->
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                            </div>
-      
-                        </div>
-                    </div>
-                </div>
-
-
-
-        
+            </li>
+        </ul>       
           
         
-        
       </nav>
-      
-
+            
     <div class="container-fluid">
         <div class="row">
-            
             <div class="col-sm-1 fondo-transparente barra-lateral ">
                 <h1>1</h1>
             </div>
@@ -170,27 +92,24 @@
                         </a>
                     </div> 
                 </div>
-                <hr class="mt-5 mb-5">
                 <section class="flex-desc" id="quienessomos">
                     <div class="container mb-6 mt-4 flex-desc">
                         
                             <img class="img-fluid" src="img/huerto.jfif" alt="" width="600">
                         
-                        <div class="texto" >
+                        <div class="texto" style="display: inline-flex;">
                             
                             <h2>Quienes Somos</h2>
                             <p> Somos vecinos de Puente Alto que realizamos la venta de productos para jardinería como maceteros,tierra de hojas, flores y arbustos, todo esto para ayudar a una fundación sin fines de lucro</p>
                             
                         </div>
-                        
                     </div>
                 </section>
-                <div class="container" style="text-align: center !important;">
-                    <button class="btn btn-danger mt-4 mb-5 " id="donar" style="align-items: center;" data-toggle="modal" data-target="#firstModal"> ¡DONAR! </button>
-                </div>
                     
                 
-                
+                <div class="container" style="text-align: center !important;">
+                    <button class="btn btn-danger mt-2 mb-5 " id="donar" style="align-items: center;"> ¡DONAR! </button>
+                </div>
                   
             </div>
             <div class="col-0 col-sm-1 fondo-transparente barra-lateral">
@@ -203,10 +122,10 @@
         <div class="d-flex justify-content-between align-items-center para-flex">
             <img src="img/logo_municipal.png" alt="" width="200">
             <ul class="list-group list-group-flush mt-3" >
-                <li class="list-group-item redes-soc" style="background-color: rgba(246, 247, 245, 0) ;">
+                <li class="list-group-item redes-soc" style="background-color: rgba(246, 247, 245, 0);">
                     <a class="a-color text-blanco" href="#"><i class="fa-brands fa-instagram"></i> Flowey</a>
                 </li>
-                <li class="list-group-item redes-soc" style="background-color: rgba(240, 248, 255, 0) ;">
+                <li class="list-group-item redes-soc" style="background-color: rgba(240, 248, 255, 0);">
                     <a class="a-color text-blanco" href="#"><i class="fa-brands fa-facebook"></i>Flowey</a>
                 </li>
             </ul>
