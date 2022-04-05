@@ -156,7 +156,7 @@ background-image: url(../img/button.png);
     box-shadow: 6px 9px 5px 0px rgba(94,91,94,1);
 }
 
-h4, h2, a, .signo-p, .precio {
+h4, h2, a, .signo-p, .precio , label {
     font-family: 'Chewy', cursive;
 }
 
