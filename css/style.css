@@ -59,6 +59,11 @@ body{
 .fondo-transparente-nav {
     background-color: rgba(6, 6, 6, 0.591) !important;
 }
+
+.fondo-transparente-footer {
+    background-color: rgba(6, 6, 6, 0.591) !important;
+}
+
 .navbar-light .navbar-toggler {
     background-color: #eff2f500;
     border-color: rgba(237, 246, 244, 0.85);
@@ -90,10 +95,14 @@ background-image: url(../img/button.png);
     -webkit-box-shadow: 6px 2px 28px -2px rgba(120,115,120,1);
     -moz-box-shadow: 6px 2px 28px -2px rgba(120,115,120,1);
     box-shadow: 6px 2px 28px -2px rgba(120,115,120,1);
-    -o-animation: fa-flip 2s infinite linear;
-    animation: fa-flip 2s infinite linear;
+    transform: rotateY(360deg);
     cursor: context-menu;
   }
+
+    .fa-flip-hover{
+      transition:all 2s !important;
+  }
+
 
 
   .activo {
@@ -156,7 +165,7 @@ background-image: url(../img/button.png);
     box-shadow: 6px 9px 5px 0px rgba(94,91,94,1);
 }
 
-h4, h2, a, .signo-p, .precio , label {
+h4, h2, a, .signo-p, .precio , label, h1 {
     font-family: 'Chewy', cursive;
 }
 
@@ -184,9 +193,30 @@ p {
 
 
 
-@media (max-width:620px){
+@media (max-width:627px){
     .para-flex{
-        flex-direction: column;
+        flex-direction: column !important;
+    }
+
+    .producto-precio-flex {
+        display: flex;
+        justify-content: center !important;
+    }
+
+}
+
+
+@media (max-width:400px ) {
+
+    .flex-total {
+        flex-direction: column !important;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .tamanio-letra-prod {
+        font-size: 110%;
     }
 }
 
@@ -194,4 +224,20 @@ p {
 .activoDos {
     background-color: rgb(167, 161, 161);
     border-radius: 7px !important;
+}
+
+.anim-logo:hover {
+    transition: all 1s ;
+    transform: rotate(20deg);
+}
+
+.anim-logo {
+    transition: all 1s ;
+}
+
+
+@media (max-width: 674px) {
+    .responsive-tamanio {
+        flex-direction: column !important;
+    }
 }
