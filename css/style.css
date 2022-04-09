@@ -167,7 +167,7 @@ h4, h2, a, .signo-p, .precio , label, h1 {
     font-family: 'Chewy', cursive;
 }
 
-p {
+p, h6 {
     font-family: 'Shadows Into Light', cursive;
 }
 
@@ -212,9 +212,15 @@ p {
     
 }
 
-@media (max-width:768px) {
+@media (max-width:780px) {
     .tamanio-letra-prod {
         font-size: 110%;
+    }
+
+
+    .group-checks {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -269,4 +275,5 @@ p {
     }
 
 }
+
 

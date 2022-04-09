@@ -46,6 +46,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
                     <a class="dropdown-item" href="historial.html">Historial</a>
                     <a class="dropdown-item" href="carritoCompras.html">Carrito de compras</a>
+                    <a class="dropdown-item" href="suscripcion.html">Suscribete</a>
                     <a class="dropdown-item" href="index.html">Salir</a>
                 </div>
             </li>
@@ -70,14 +71,39 @@
 
                     <input class="form-control" id="myInput" type="text" placeholder="Buscar" style="display: flex;">
 
-                    <div class="card-deck tamanio-letra-prod " style="margin-top: 4%;" >
+                    <div class="modal" id="modalCuatro">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                      
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                              <h4 class="modal-title"></h4>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                      
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                              Producto agregado
+                            </div>
+                      
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <a type="submit" class="btn btn-success" name="btnCarrito" id="btnCarrito" href="carritoCompras.html" style="font-family: inherit !important;">Ver Carrito</a>
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                            </div>
+                      
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="card-deck  tamanio-letra-prod " style="margin-top: 4%;" >
                         <div class="card" style="width:100%;">
                             <img class="card-img-top" src="img/flor.jpg">
                             <div class="card-body">
                               <h4 class="card-title tamanio-letra-prod">Flores</h4>
                               <p class="card-text font-weight-bold">$1500 c/u</p>
                               <p class="card-text font-weight-bold">Stock: 1</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                         <div class="card" style="width:100%;">
@@ -86,7 +112,7 @@
                               <h4 class="card-title tamanio-letra-prod">Cactus</h4>
                               <p class="card-text font-weight-bold">$2000 c/u</p>
                               <p class="card-text font-weight-bold">Stock: 325</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                         <div class="card" style="width:100%;">
@@ -95,7 +121,7 @@
                               <h4 class="card-title tamanio-letra-prod">Clavel</h4>
                               <p class="card-text font-weight-bold">$5999 c/u</p>
                               <p class="card-text font-weight-bold">Stock: 31</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -106,7 +132,7 @@
                               <h4 class="card-title tamanio-letra-prod">Clavel Rosado</h4>
                               <p class="card-text font-weight-bold">$6999 c/u</p>
                               <p class="card-text font-weight-bold">Stock: 43</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                         <div class="card" style="width:100%;">
@@ -115,7 +141,7 @@
                               <h4 class="card-title tamanio-letra-prod">Compostadora</h4>
                               <p class="card-text font-weight-bold"> $19999 c/u</p>
                               <p class="card-text font-weight-bold">Stock: 131</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                         <div class="card" style="width:100%;">
@@ -124,7 +150,7 @@
                               <h4 class="card-title tamanio-letra-prod">Tierra de Hoja</h4>
                               <p class="card-text font-weight-bold">$2500 c/u </p>
                               <p class="card-text font-weight-bold">Stock: 131</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +161,7 @@
                               <h4 class="card-title tamanio-letra-prod">Bambu</h4>
                               <p class="card-text font-weight-bold">$8999 c/u</p>
                               <p class="card-text font-weight-bold">Stock: 41</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                         <div class="card" style="width:100%;">
@@ -144,7 +170,7 @@
                               <h4 class="card-title tamanio-letra-prod">Helecho</h4>
                               <p class="card-text font-weight-bold">$4999 c/u </p>
                               <p class="card-text font-weight-bold">Stock: 643</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                         <div class="card" style="width:100%;">
@@ -153,7 +179,7 @@
                               <h4 class="card-title tamanio-letra-prod">Topario Verde</h4>
                               <p class="card-text font-weight-bold">$5999 c/u</p>
                               <p class="card-text font-weight-bold">Stock: 91</p>
-                              <a href="#" class="btn btn-primary" style="display: flex; justify-content:center";>COMPRAR</a>
+                              <a href="" class="btn btn-primary" style="display: flex; justify-content:center" data-toggle="modal" data-target="#modalCuatro">Añadir<i class="fa-solid fa-cart-plus" style="align-self: center; margin-left: 2px;"></i></a>
                             </div>
                         </div>
                     </div>

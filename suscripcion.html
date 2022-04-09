@@ -82,7 +82,7 @@
                                 <label for="inputfecha">Fecha nacimiento: </label>
                                 <div  class="form-row">
                                 
-                                    <div class="col-sm-1">
+                                    <div class="col-sm-2">
                                         
                                         <select class="custom-select my-1">
                                             <option selected>Dia</option>
@@ -164,63 +164,68 @@
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="col">
+                                <div class="col-sm-6">
                                     <label for="inputRut">Rut: </label>
                                     <input type="text" class="form-control rut-text my-1" style="width: 80%;" placeholder="Ej: 11.111.111-1">
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="col">
-                                    <label for="validationCustomUsername"> Contacto </label>
+                                    <label for="validacionNum"> Contacto: </label>
                                         <div class="input-group">
                                             <div class="input-cod-cel">
                                             <span class="input-group-text my-1" id="inputCodCel">+56</span>
                                             </div>
-                                            <input type="text" class="form-control my-1" id="validationCustomUsername" placeholder="987654321" aria-describedby="inputGroupPrepend" required>
+                                            <input type="text" class="form-control my-1 col-sm-3" id="validacionNum" placeholder="987654321" aria-describedby="inputGroupPrepend" required>
                                         </div>
-                                </div>
-                                <div class="col">
+                                    </div>
                                     
                                 </div>
                             </div>
+                            <hr>
+                            <h2 class="donacion" style="text-align: center;">Donación</h2>
+                            <form class="form-inline monto-donacion" action="suscripcion.html">
+                                <div class="group-checks">
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label" for="radio1">
+                                            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"> $1000
+                                        </label>
+                                    </div>
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label" for="radio2">
+                                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> $2500
+                                        </label>
+                                    </div>
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label">
+                                            <input type="radio" class="form-check-input"> $5000
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="form-check-inline">
+                                        <label class="form-check-label" style="margin-right: 3px !important;">
+                                        <input type="radio" class="form-check-input" >Otro Monto
+                                        
+                                        </label>
+                                        <input type="text" class="form-check-input form-control-sm" id="inputMonto" placeholder="Ingrese el Monto">
+                                    </div>
+                                </div>
+    
+                                        
+                                    
+                                
+                                <hr>
+                                <div class="container mb-3 mt-3" >
+                                    <a type="submit" class="btn btn-success" name="btnPagar" id="btnPagar" href="indexdos.html" style="font-family: inherit !important;">Pagar</a>
+                                    <input type="reset" id="btnLimpiar" name="btnLimpiar" class="btn btn-danger">
+                                </div>
+
+                            </form>
                             
                             
                         </form>
                     </div>
-                    <hr>
-                    <h2 class="donacion" style="text-align: center;">Donación</h2>
-                    <form class="form-inline monto-donacion" action="suscripcion.html">
-                        <div class="form-check-inline">
-                          <label class="form-check-label" for="radio1">
-                            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked> $1000
-                          </label>
-                        </div>
-                        <div class="form-check-inline">
-                          <label class="form-check-label" for="radio2">
-                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> $2500
-                          </label>
-                        </div>
-                        <div class="form-check-inline">
-                          <label class="form-check-label">
-                            <input type="radio" class="form-check-input"> $5000
-                          </label>
-                        </div>
-                        <div class="form-group">
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                <input type="radio" class="form-check-input">Otro Monto
-                                </label>
-                            </div>
-
-                            <input type="text" class="form-control form-control-sm" id="inputMonto" placeholder="Ingrese el Monto">
-                        </div>
-                        
-                        <div class="container mb-3 mt-3" >
-                            <a type="submit" class="btn btn-success" name="btnEnviar" id="btnEnviar" href="indexdos.html" style="font-family: inherit !important;">Enviar</a>
-                            <input type="reset" id="btnLimpiar" name="btnLimpiar" class="btn btn-danger">
-                        </div>
-
-                      </form>
+                    
                 </div>
                     
                 </div>
