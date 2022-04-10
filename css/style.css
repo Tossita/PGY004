@@ -206,6 +206,7 @@ p, h6 {
 
     .flex-total {
         flex-direction: column !important;
+        
     }
     
 }
@@ -273,5 +274,4 @@ p, h6 {
     }
 
 }
-
 
