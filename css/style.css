@@ -1,3 +1,4 @@
+
 .color-cont {
     background-color: rgba(237, 182, 226, 0.823);
 }
@@ -30,7 +31,7 @@ body{
 
 }
 
-@media (max-width:992px) {
+@media (max-width:1163.20px) {
     .flex-desc {
         flex-direction: column;
         display: flex !important;
