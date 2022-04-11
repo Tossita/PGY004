@@ -28,16 +28,41 @@
         <div class="collapse navbar-collapse fondo-transparente nav-activar" id="navbarNav" >
             <ul class="navbar-nav nav-activar" >
                 <li class="nav-item mt-1 mr-1">
-                    <a class="nav-link " href="indexUsuario.html"><i class="fa-solid fa-house fa-flip-hover" ></i> Inicio </a>
+                    <a class="nav-link " href="index.html"><i class="fa-solid fa-house fa-flip-hover" ></i> Inicio </a>
                 </li>
                 <li class="nav-item mt-1 mr-1">
-                    <a class="nav-link" href="ventas.html"><i class="fa-solid fa-dollar-sign fa-flip-hover"></i> Ventas </a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#firstModal"><i class="fa-solid fa-dollar-sign fa-flip-hover"></i> Ventas </a>
                 </li>
                 <li class="nav-item mt-1 mr-1">
-                    <a class="nav-link disabled" href="seguimiento.html"><i class="fa-solid fa-location-crosshairs fa-flip-hover"></i> Seguimiento </a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#firstModal"><i class="fa-solid fa-location-crosshairs fa-flip-hover"></i> Seguimiento </a>
                 </li>
             </ul>
-        </div>      
+        </div>
+
+        <!-- PRIMER MODAL -->
+        <div class="modal fade" id="firstModal">
+            <div class="modal-dialog">
+            <div class="modal-content">
+        
+               
+                <div class="modal-header">
+                <h4 class="modal-title">Lo sentimos</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+        
+                
+                <div class="modal-body">
+                Para acceder a esta sección debes iniciar sesión.
+                </div>
+        
+                
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+        
+            </div>
+            </div>
+        </div>
           
         
       </nav>
@@ -66,11 +91,6 @@
                             <input type="text" placeholder="Ej: 11.111.111-1" class="form-control" id="txtUser" name="txtUser">
                         </div>
                         <div class="form-group">
-                            <label for="dateNac">Fecha nacimiento: </label>
-                            <div class="col" style="padding-left: 1px; padding-right: 1px; ">
-                                <input type="date" class="form-control my-1 " id="dateNac" name="dateNac" style="height: 38px;" >
-                            </div>
-                        <div class="form-group">
                             <label for="txtUser"> Correo Cliente:</label>
                             <input type="text" placeholder="Ej: flowey@gmail.com" class="form-control" id="txtUser" name="txtUser">
                         </div>
@@ -93,11 +113,8 @@
                     </form>
                 </div>
                     
-                </div>
-                <hr>
-                <div class="">
 
-                </div>
+                
 
                   
             </div>
